@@ -3588,6 +3588,8 @@ sub,sup {
 
 @media only screen and (min-width:550px) {
 	.contents {
+		float:left;
+		text-alige:left;
 		margin-top:-5%;
 		width:48%
 	}
