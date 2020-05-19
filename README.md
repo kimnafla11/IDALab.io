@@ -6,4 +6,5 @@
 - header에 세로선 추가(hr)
 - about에 사진 추가
 - member의 사진 추가
+- member에 icon 
 - member의 button(check it out) -> button(about...)
