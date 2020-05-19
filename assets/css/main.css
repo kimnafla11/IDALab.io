@@ -3559,6 +3559,7 @@ sub,sup {
 }
 .user-members-student img {
 	width:75%;
+	height:240px;
 }
 .user-members-students-div {
 	display:flex;
