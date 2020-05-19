@@ -68,7 +68,8 @@ audio:not([controls]) {
 	height:0
 }
 img {
-	border-style:none
+	border-style:none;
+	box-shadow : 2px 4px 8px darkgray;
 }
 svg:not(:root) {
 	overflow:hidden
@@ -3546,13 +3547,74 @@ sub,sup {
 	margin:0
 }
 .user-members li {
+	
 	color:#1a222c;
 	font-size:1.1rem
 }
 .user-members p {
-	margin-right:5px
+}
+.user-members-student {
+	width:25%;
+	font-size:1.1rem;
+	margin-top:75px;
+}
+.user-members-student img {
+	width:75%;
+}
+.user-members-students-div {
+	display:flex;
+	flex-wrap:wrap;
 }
 
+@media only screen and (min-width:550px) {
+	.contents {
+		float:left;
+		text-align:left;
+		margin-top:-5%;
+		width:48%
+	}
+	.contents-down ul {
+		text-align:left;
+		display: table;
+		margin-left: auto;
+		margin-bottom : 10px;
+		margin-right: auto;
+		padding-left: 20px;
+	}
+	.contents-down {
+		text-align:center;
+		margin-top:-5%;
+		height:45%;
+	}
+	.contents-right {
+		margin-top:-5%
+	}
+	.contents-right,.images-right {
+		float:right;
+		width:48%;
+		border-radius:5px
+	}
+	.images-right img {
+		float:right;
+		border-radius:5px
+	}
+	.images-left,.images-left {
+		float:left;
+		width:48%
+	}
+	.images-left img {
+		border-radius:5px;
+		float:left
+	}
+	.images-left-down {
+
+		text-align:center;
+		vertical-align:center;
+	}
+	.images-left-down img {
+		border-radius:5px;
+	}
+}
 #publications {
 	display:flex;
 	flex-direction:column;
@@ -3584,32 +3646,6 @@ sub,sup {
 }
 .user-publications p {
 	margin-right:5px
-}
-
-@media only screen and (min-width:550px) {
-	.contents {
-		float:left;
-		text-alige:left;
-		margin-top:-5%;
-		width:48%
-	}
-	.contents-right {
-		margin-top:-5%
-	}
-	.contents-right,.images-right {
-		float:right;
-		width:48%
-	}
-	.images-right img {
-		float:right
-	}
-	.images-left,.images-left {
-		float:left;
-		width:48%
-	}
-	.images-left img {
-		float:left
-	}
 }
 .project-link {
 	display:inline-block;
