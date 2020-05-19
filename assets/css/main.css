@@ -3653,11 +3653,11 @@ sub,sup {
 	text-align:center
 }
 .member-icons .icon{
-	height:20px;
+	height:30px;
 	border-radius:50%;
 	border:2px solid #fff;
 	transition:all .7s;
-	width:20px;
+	width:30px;
 	font-size:20px;
 	margin:5px;
 	color:#000;
