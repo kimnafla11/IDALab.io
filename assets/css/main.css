@@ -3547,7 +3547,6 @@ sub,sup {
 	margin:0
 }
 .user-members li {
-	
 	color:#1a222c;
 	font-size:1.1rem
 }
@@ -3559,6 +3558,7 @@ sub,sup {
 	margin-top:75px;
 }
 .user-members-student img {
+	width:75%
 }
 .user-members-students-div {
 	display:flex;
