@@ -3562,7 +3562,6 @@ sub,sup {
 	width:75%;
 }
 .user-members-students-div {
-	display:flex;
 	flex-wrap:wrap;
 }
 
