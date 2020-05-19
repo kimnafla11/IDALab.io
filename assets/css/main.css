@@ -3652,3 +3652,15 @@ sub,sup {
 	color:#000;
 	text-align:center
 }
+.member-icons .icon{
+	height:20px;
+	padding:10px;
+	border-radius:50%;
+	border:2px solid #fff;
+	transition:all .7s;
+	width:20px;
+	font-size:20px;
+	margin:5px;
+	color:#000;
+	text-align:center
+}
