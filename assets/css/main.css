@@ -3603,6 +3603,7 @@ sub,sup {
 		width:48%
 	}
 	.images-left img {
+		margin:20px;
 		border-radius:5px;
 		float:left
 	}
