@@ -3524,6 +3524,7 @@ sub,sup {
 }
 #members {
 	display:flex;
+
 	flex-direction:column;
 	justify-content:space-between;
 	width:90%;
@@ -3536,7 +3537,7 @@ sub,sup {
 	}
 }
 .user-members {
-	margin:20px auto
+	margin:40px auto
 }
 .user-members img {
 	max-width:100%;
@@ -3553,26 +3554,48 @@ sub,sup {
 .user-members p {
 }
 .user-members-student {
+	justify-content:center;
+	width:33.3%;
 	text-align:center;
-	width:25%;
 	font-size:1.1rem;
 	margin-top:75px;
-	display:flex;
-	flex-wrap:wrap;
-}
-.user-members-student img {
-	display:flex;
-	flex-wrap:wrap;
-	text-align:center;
-	width:75%;
-	height:240px;
 }
 .user-members-students-div {
 	display:flex;
 	flex-wrap:wrap;
+	float:left;
+	clear:both;
+	flex-direction:row;
+	justify-content:space-between
 }
 
-@media only screen and (min-width:550px) {
+@media (min-width:0px) and (max-width:777px) {
+	.user-members-student {
+		justify-content:center;
+		width:100%;
+		text-align:center;
+		font-size:1.1rem;
+		margin-top:75px;
+	}
+	.user-members-students-div {
+		float:left;
+		justify-content:center
+	}
+	.images-down img {
+		margin:30px;
+		height:auto;
+		max-width:100%;
+		border-radius:5px;
+	}
+	.contents-down {
+		text-align:center;
+		vertical-align:center;
+		margin-top:-5%;
+		height:45%;
+	}
+}
+
+@media only screen and (min-width:415px) {
 	.contents {
 		float:left;
 		text-align:left;
@@ -3589,6 +3612,7 @@ sub,sup {
 	}
 	.contents-down {
 		text-align:center;
+		vertical-align:center;
 		margin-top:-5%;
 		height:45%;
 	}
@@ -3601,26 +3625,28 @@ sub,sup {
 		border-radius:5px
 	}
 	.images-right img {
+		justify-content:center;
 		float:right;
 		border-radius:5px
 	}
-	.images-left,.images-left {
+	.images-left {
 		float:left;
+		justify-content:center;
 		width:48%
 	}
 	.images-left img {
+		justify-content:center;
 		border-radius:5px;
-		float:left
 	}
-	.images-left-down {
+	.images-down {
 		text-align:center;
 		vertical-align:center;
 	}
-	.images-left-down img {
-		text-align:center;
+	.images-down img {
+		margin:30px;
+		height:auto;
+		max-width:100%;
 		border-radius:5px;
-		display:block;
-		margin: 0px auto;
 	}
 }
 #publications {
@@ -3691,7 +3717,7 @@ sub,sup {
 	color: #fff
 }
 .upss {
-	margin-top:64px;
+	margin-top:50px;
 	text-align:center
 }
 .ups .icon {
