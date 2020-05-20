@@ -3614,6 +3614,8 @@ sub,sup {
 	}
 	.images-left-down img {
 		border-radius:5px;
+		display:block;
+		margin: 0px auto;
 	}
 }
 #publications {
