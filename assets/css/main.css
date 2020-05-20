@@ -3616,6 +3616,7 @@ sub,sup {
 		vertical-align:center;
 	}
 	.images-left-down img {
+		text-align:center;
 		border-radius:5px;
 		display:block;
 		margin: 0px auto;
