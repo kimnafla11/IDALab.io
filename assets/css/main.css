@@ -3556,10 +3556,13 @@ sub,sup {
 	width:25%;
 	font-size:1.1rem;
 	margin-top:75px;
+	display:flex;
+	flex-wrap:wrap;
 }
 .user-members-student img {
 	display:flex;
 	flex-wrap:wrap;
+	text-align:center;
 	width:75%;
 	height:240px;
 }
