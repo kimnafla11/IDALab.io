@@ -3643,6 +3643,7 @@ sub,sup {
 		width:48%
 	}
 	.images-left img {
+		float:left;
 		justify-content:center;
 		border-radius:5px;
 	}
