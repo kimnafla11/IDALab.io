@@ -3625,10 +3625,10 @@ sub,sup {
 		height:45%;
 	}
 	.contents-right {
+		float:right;
 		margin-top:-5%
 	}
 	.contents-right,.images-right {
-		float:right;
 		width:48%;
 		border-radius:5px
 	}
@@ -3639,8 +3639,8 @@ sub,sup {
 	}
 	.images-left {
 		float:left;
-		justify-content:center;
-		width:48%
+		width:48%;
+		border-radius:5px
 	}
 	.images-left img {
 		float:left;
