@@ -3537,7 +3537,7 @@ sub,sup {
 	}
 }
 .user-members {
-	margin:40px auto
+	margin:40px
 }
 .user-members img {
 	max-width:100%;
@@ -3608,7 +3608,38 @@ sub,sup {
 		float:left;
 		text-align:left;
 		margin-top:-5%;
-		width:48%
+		width:55%
+	}
+	.images-right {
+		float:right;
+		width:40%;
+		margin-left:5%;
+		border-radius:5px
+	}
+	.images-right img {
+		justify-content:center;
+		float:right;
+		border-radius:5px
+	}
+	.contents-right {
+		float:right;
+		text-align:left;
+		margin-top:-5%;
+		margin-left:5%;
+		width:50%;
+	}
+	.contents-right ul {
+		text-align:left;
+	}
+	.images-left {
+		float:left;
+		width:45%;
+		border-radius:5px
+	}
+	.images-left img {
+		justify-content:center;
+		float:left;
+		border-radius:5px;
 	}
 	.contents-down ul {
 		text-align:left;
@@ -3623,30 +3654,6 @@ sub,sup {
 		vertical-align:center;
 		margin-top:-5%;
 		height:45%;
-	}
-	.contents-right {
-		float:right;
-		margin-top:-5%
-	}
-	.contents-right,.images-right {
-		float:right;
-		width:48%;
-		border-radius:5px
-	}
-	.images-right img {
-		justify-content:center;
-		float:right;
-		border-radius:5px
-	}
-	.images-left {
-		float:left;
-		width:48%;
-		border-radius:5px
-	}
-	.images-left img {
-		float:left;
-		justify-content:center;
-		border-radius:5px;
 	}
 	.images-down {
 		text-align:center;
@@ -3690,6 +3697,19 @@ sub,sup {
 }
 .user-publications p {
 	margin-right:5px
+}
+#projects {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:90%;
+	max-width:960px;
+	margin:0 auto
+}
+@media only screen and (min-width:550px) {
+	#projects {
+		width:80%
+	}
 }
 .project-link {
 	display:inline-block;
@@ -3745,4 +3765,5 @@ sub,sup {
 	color:#000;
 	text-align:center;
 	vertical-align:center;
+	clear:both;
 }
