@@ -3524,14 +3524,29 @@ sub,sup {
 }
 .user-details {
 	text-align:center;
-	margin:5px auto
+	margin-bottom:40px
 }
 .user-details p {
 	font-size : 21px;
 }
-#members {
+
+#professors {
 	display:flex;
 
+	flex-direction:column;
+	justify-content:space-between;
+	width:90%;
+	max-width:960px;
+	margin:0 auto
+}
+@media only screen and (min-width:550px) {
+	#professors {
+		width:80%
+	}
+}
+
+#members {
+	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
 	width:90%;
@@ -3565,7 +3580,7 @@ sub,sup {
 	width:33.3%;
 	text-align:center;
 	font-size:1.1rem;
-	margin-top:75px;
+	/*margin-top:75px;*/
 }
 .user-members-students-div {
 	display:flex;
@@ -3582,7 +3597,7 @@ sub,sup {
 		width:100%;
 		text-align:center;
 		font-size:1.1rem;
-		margin-top:75px;
+		/*margin-top:75px;*/
 	}
 	.user-members-students-div {
 		float:left;
@@ -3673,6 +3688,7 @@ sub,sup {
 		border-radius:5px;
 	}
 }
+
 #publications {
 	display:flex;
 	flex-direction:column;
@@ -3738,6 +3754,34 @@ sub,sup {
 	color:#fff;
 	transition:color .3s ease-in,background-color .3s ease-in,border-color .3s ease-in
 }
+#activities {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:90%;
+	max-width:960px;
+	margin:0 auto
+}
+@media only screen and (min-width:550px) {
+	#activities {
+		width:80%
+	}
+}
+.activities-details {
+}
+.activities-scription {
+	text-align:center;
+}
+.activities-images img{
+	border-radius:5px;
+}
+.activities-images{
+	text-align:center;
+	display:block;
+}
+
+
+
 .footer {
 	background:#1a222c;
 	padding:10px;
