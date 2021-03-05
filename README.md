@@ -1,6 +1,6 @@
 <p align = 'center'>
    <img src="https://koptimizer.github.io/IDALab.io/assets/img/IDAL_gray_1.png" width="500" height="500"><br>
-   <b>www.idalab.ac.kr</b>
+   <b>idalab.ac.kr</b>
 </p>
 
 ### IDAL 홈페이지 관리 핵심파일
