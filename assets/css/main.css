@@ -3788,6 +3788,8 @@ sub,sup {
 }
 .activities-images img{
 	border-radius:5px;
+	height: auto;
+	max-width: 100%;
 }
 .activities-images{
 	text-align:center;
