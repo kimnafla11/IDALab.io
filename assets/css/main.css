@@ -3546,7 +3546,6 @@ sub,sup {
 
 #professors {
 	display:flex;
-
 	flex-direction:column;
 	justify-content:space-between;
 	width:90%;
@@ -3768,6 +3767,7 @@ sub,sup {
 	color:#fff;
 	transition:color .3s ease-in,background-color .3s ease-in,border-color .3s ease-in
 }
+
 #activities {
 	display:flex;
 	flex-direction:column;
@@ -3781,6 +3781,7 @@ sub,sup {
 		width:80%
 	}
 }
+
 .activities-details {
 }
 .activities-scription {
@@ -3794,6 +3795,31 @@ sub,sup {
 .activities-images{
 	text-align:center;
 	display:block;
+}
+
+#support {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:90%;
+	max-width:960px;
+	margin:0 auto;
+}
+@media only screen and (min-width:550px) {
+	#support {
+		width:80%
+	}
+}
+.supImg{
+	text-align:center;
+	justify-content:space-between;
+}
+.supImg img {
+	max-width:100%;
+	height:auto;
+	box-shadow:none;
+	text-align:center;
+	width:200px;
 }
 
 
